@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Video Sharing Website</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Video Sharing Website</h1>
+    </header>
+
+    <div id="video-list">
+        <h2>Video List</h2>
+        <ul id="video-list-items">
+            <!-- Video list items will be added here dynamically -->
+        </ul>
+    </div>
+
+    <div id="video-upload">
+        <h2>Upload Video</h2>
+        <input type="file" id="video-file" accept="video/*">
+        <button onclick="uploadVideo()">Upload</button>
+    </div>
+
+    <div id="video-player">
+        <h2>Video Player</h2>
+        <video id="video-element" controls></video>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
